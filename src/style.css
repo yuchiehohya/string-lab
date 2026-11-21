@@ -1,0 +1,71 @@
+:root {
+  font: 16px/1.5 system-ui, "Segoe UI", sans-serif;
+  color: #1c1917;
+  background: #f6f4f1;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  color: #1c1917;
+}
+
+.note {
+  margin: 0 0 1.5rem;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #e7e5e4;
+  border-radius: 12px;
+}
+
+.field {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 5rem;
+  font: inherit;
+}
+
+.checks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+}
+
+button {
+  font: inherit;
+  width: fit-content;
+  padding: 0.4rem 0.9rem;
+}
+
+.message {
+  min-height: 1.5rem;
+}
+
+.result {
+  margin: 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #e7e5e4;
+  border-radius: 12px;
+  font-family: ui-monospace, Consolas, monospace;
+  white-space: pre-wrap;
+}
